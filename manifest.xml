@@ -6,8 +6,8 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="PKM-add-in"/>
   <Description DefaultValue="A template to get started."/>
-  <IconUrl DefaultValue="C:/xampp/htdocs/test/assets/icon-32.png"/>
-  <HighResolutionIconUrl DefaultValue="C:/xampp/htdocs/test/assets/icon-80.png"/>
+  <IconUrl DefaultValue="https://github.com/gokuldaz/test/tree/master/assets/icon-32.png?raw=true"/>
+  <HighResolutionIconUrl DefaultValue="https://github.com/gokuldaz/test/tree/master/assets/icon-80.png?raw=true"/>
   <SupportUrl DefaultValue="https://www.contoso.com/help"/>
   <AppDomains>
     <AppDomain>contoso.com</AppDomain>
@@ -16,8 +16,8 @@
     <Host Name="Document"/>
   </Hosts>
   <DefaultSettings>
-  <!-- <SourceLocation DefaultValue="C:/xampp/htdocs/test/src/taskpane/taskpane.html"/>-->
-	<SourceLocation DefaultValue="http://www.google.com/"/>
+  <SourceLocation DefaultValue="https://github.com/gokuldaz/test/tree/master/src/taskpane/taskpane.html?raw=true"/>
+	<SourceLocation DefaultValue="https://www.google.com/"/>
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
   <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
@@ -63,14 +63,14 @@
     </Hosts>
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16x16" DefaultValue="C:/xampp/htdocs/test/assets/icon-16.png"/>
-        <bt:Image id="Icon.32x32" DefaultValue="C:/xampp/htdocs/test/assets/icon-32.png"/>
-        <bt:Image id="Icon.80x80" DefaultValue="C:/xampp/htdocs/test/assets/icon-80.png"/>
+        <bt:Image id="Icon.16x16" DefaultValue="https://github.com/gokuldaz/test/tree/master/assets/icon-16.png?raw=true"/>
+        <bt:Image id="Icon.32x32" DefaultValue="https://github.com/gokuldaz/test/tree/master/assets/icon-32.png?raw=true"/>
+        <bt:Image id="Icon.80x80" DefaultValue="https://github.com/gokuldaz/test/tree/master/assets/icon-80.png?raw=true"/>
       </bt:Images>
       <bt:Urls>
         <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://go.microsoft.com/fwlink/?LinkId=276812"/>
-        <bt:Url id="Commands.Url" DefaultValue="C:/xampp/htdocs/test/src/commands/commands.html"/>
-        <bt:Url id="Taskpane.Url" DefaultValue="C:/xampp/htdocs/test/src/taskpane/taskpane.html"/>
+        <bt:Url id="Commands.Url" DefaultValue="https://github.com/gokuldaz/test/tree/master/src/commands/commands.html?raw=true"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://github.com/gokuldaz/test/tree/master/src/taskpane/taskpane.html?raw=true"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="GetStarted.Title" DefaultValue="Get started with your sample add-in!"/>
